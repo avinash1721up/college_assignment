@@ -1,0 +1,132 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #add8e6; /* Light blue background color */
+  color: white; /* White text color */
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.college-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.college-links a {
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.college-links a.apply-now {
+  color: orange;
+}
+
+.college-links a.brochure {
+  color: green;
+}
+
+.college-links a.compare-fees {
+  color: orange;
+  font-size: 14px;
+}
+
+.college-links a:hover {
+  text-decoration: underline;
+}
+
+.college-links label {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.college-links label input {
+  margin-right: 4px;
+}
+
+td.college-name {
+  text-align: left;
+  color: #add8e6; /* Light blue color for college name */
+}
+
+td.course-fees {
+  text-align: left;
+}
+
+.compare-fees-text {
+  color: orange;
+  font-size: 14px;
+}
+.course-fees {
+  position: relative;
+}
+
+.course-fees > span:not(.compare-fees-text) {
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+.course-fees > span:not(:last-child) {
+  margin-bottom: 4px; /* Adjust the margin as needed */
+}
+
+.package .fees {
+  color: green;
+}
+.package .text {
+  font-size: 12px;
+}
+.package div {
+  color: orange;
+  margin-top: 5px;
+}
+.featured-label {
+  display: inline-block;
+  background-color: rgb(209, 12, 12);
+  color: rgb(232, 223, 223);
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.loader {
+  text-align: center;
+  padding: 10px;
+  color: #888;
+}
